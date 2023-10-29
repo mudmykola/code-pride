@@ -21,3 +21,10 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+README.md
+yarn.lock
+vue.config.js
+babel.config.js
+jsconfig.json
+postcss.config.js
+tailwind.config.js
