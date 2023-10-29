@@ -4,11 +4,11 @@ import NavigationComponent from '../components/navigation/NavigationComponent.vu
 </script>
 
 <template>
-    <div class="wrapper flex flex-col justify-center items-center bg-c103">
-        <div class="navigation border-b-2 border-c101 w-full">
+    <div class="wrapper flex flex-col justify-center items-center">
+        <div class="navigation border-b-2 border-c101 w-full bg-c103">
             <navigation-component class=" container px-[0.625rem]" />
         </div>
-        <main>
+        <main class=" min-w-full bg-c103">
             <slot />
         </main>
         <footer-component />
