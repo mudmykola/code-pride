@@ -1,12 +1,13 @@
 <script setup>
 import LayoutComponent from '@/layout/LayoutComponent';
+import HeaderComponent from '@/components/header/HeaderComponent';
 </script>
 
 
 <template>
-  <div class="home">
+  <div class="home justify-center flex flex-col">
     <layout-component>
-      <p class=" text-[red]">Home</p>
+      <header-component />
     </layout-component>
   </div>
 </template>

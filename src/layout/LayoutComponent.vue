@@ -6,11 +6,11 @@ import NavigationComponent from '../components/navigation/NavigationComponent.vu
 <template>
     <div class="wrapper flex flex-col justify-center items-center bg-c103">
         <div class="navigation border-b-2 border-c101 w-full">
-            <navigation-component class=" container px-[0.625rem]"/>
+            <navigation-component class=" container px-[0.625rem]" />
         </div>
         <main>
-            <slot/>
+            <slot />
         </main>
-     <footer-component/>
+        <footer-component />
     </div>
 </template>

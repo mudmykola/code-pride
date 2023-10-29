@@ -10,7 +10,7 @@ watch(() => route.meta.title, (newTitle) => {
 </script>
 
 <template>
-   <v-app>
+  <v-app>
     <router-view />
   </v-app>
 </template>
