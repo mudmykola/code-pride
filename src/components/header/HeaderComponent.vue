@@ -18,8 +18,8 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="container">
-        <div class="header text-center py-[6.25rem] w-[75rem]" v-for="content in apiData" :key="content">
+    <div class=" justify-center flex">
+        <div class="header container text-center py-[6.25rem] w-[75rem]" v-for="content in apiData" :key="content">
             <p class="header-sub font-light text-[1.75rem]">{{ content.subtext }}</p>
             <h1 class="header-title font-medium text-[4rem] pt-[1.25rem] pb-[2.5rem]">
                 <span>{{ content.title.slice(0, 23) }}</span>
