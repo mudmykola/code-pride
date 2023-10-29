@@ -1,12 +1,8 @@
-import { createStore } from "vuex";
-
+import { createStore } from 'vuex';
+import apiModule from './modules/apiModule';
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
   modules: {
-
+    apiModule
   },
 });
