@@ -2,6 +2,7 @@
 import LayoutComponent from '@/layout/LayoutComponent';
 import HeaderComponent from '@/components/header/HeaderComponent';
 import HeaderCartComponent from '@/components/header/HeaderCartComponent';
+import AdvantagesComponent from '@/components/advantages/AdvantagesComponent';
 </script>
 
 
@@ -10,6 +11,7 @@ import HeaderCartComponent from '@/components/header/HeaderCartComponent';
     <layout-component>
       <header-component />
       <header-cart-component />
+      <advantages-component />
     </layout-component>
   </div>
 </template>
