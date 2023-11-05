@@ -2,6 +2,11 @@
     "advantage":{
         "title": "Why innovative companies prefer CODEPRIDE",
         "subtitle": "our advantages"
+    },
+    "discover": {
+        "subtitle": "Your Perfect Match",
+        "title": "Discover a world of talent with your personal matcher",
+        "text": "Get paired with your own personal matcher from our dedicated team. Why? They listen carefully to you, handpicking developers with perfectly tailored skillsets for your needs."
     }
    
 }
