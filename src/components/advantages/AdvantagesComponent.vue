@@ -2,6 +2,7 @@
 import { computed } from 'vue';
 import { useStore } from 'vuex';
 import content from "@/data/content.json";
+import DiscoverComponent from '@/components/discover/DiscoverComponent';
 
 const store = useStore();
 const GET_ADVANTAGE = computed(() => store.getters.GET_ADVANTAGE);
@@ -36,6 +37,7 @@ const GET_ADVANTAGE = computed(() => store.getters.GET_ADVANTAGE);
                     class="el-3 absolute w-[31.875rem] h-[15rem] bg-c106 rounded-[100%] top-[60%] z-[-1] rotate-90  blur-2xl left-[0%]">
                 </div>
             </div>
+            <discover-component />
         </div>
     </div>
 </template>
