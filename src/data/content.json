@@ -10,6 +10,9 @@
     },
     "works": {
         "title": "How it works"
+    },
+    "footerLogo": {
+        "city": "City, Country, Example street"
     }
    
 }

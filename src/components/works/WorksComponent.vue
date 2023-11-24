@@ -7,7 +7,7 @@ import WorksListComponent from '@/components/works/WorksListComponent';
     <div class=" bg-c107">
         <div class="works-box container mx-auto">
             <h2 class=" text-center font-medium text-[4rem] pt-[7.5rem] pb-[6.25rem]">{{ content.works.title }}</h2>
-            <div class="works-box__list">
+            <div class="works-box__list pb-[7.5rem]">
                 <works-list-component />
             </div>
         </div>
