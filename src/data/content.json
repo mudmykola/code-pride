@@ -10,9 +10,12 @@
     },
     "works": {
         "title": "How it works"
+<<<<<<< HEAD
+=======
     },
     "footerLogo": {
         "city": "City, Country, Example street"
+>>>>>>> feature/CDP_footer
     }
    
 }
