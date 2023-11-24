@@ -19,7 +19,7 @@ const GET_ADVANTAGE = computed(() => store.getters.GET_ADVANTAGE);
                     <span> {{ content.advantage.title.slice(30) }}</span>
                 </h1>
                 <ul class="flex justify-center gap-[1.875rem]">
-                    <li class="w-[25.625rem] text-left  border-l-4 border-c102 pl-[0.625rem] border-opacity-30"
+                    <li class="w-[25.625rem] text-left  border-l-4 border-c104 pl-[0.625rem] border-opacity-30"
                         v-for="item in GET_ADVANTAGE" :key="item.id">
                         <h3 class=" mb-[2.75rem] font-medium text-[1.75rem]">
                             {{ item.title }}

@@ -11,7 +11,11 @@ const works = computed(() => store.getters.allWorks);
     <div class="works-list__box ">
         <ul class="gap-[3.5rem] flex flex-col">
             <li class="flex justify-between" v-for="item in works" :key="item.id">
+<<<<<<< HEAD
                 <div class="works-list__img w-[40.313rem] border-r-4 border-h102 ">
+=======
+                <div class="works-list__img w-[40.313rem] border-r-4 border-c104 ">
+>>>>>>> feature/CDP_footer
                     <h2 class="font-medium text-[2rem] mb-[2.5rem]">{{ item.title }}</h2>
                     <img :src="require('@/assets/images/' + item.imageUrl)" :alt="item.imageAlt">
                 </div>
