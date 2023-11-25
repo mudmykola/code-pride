@@ -4,9 +4,10 @@ import developers from '@/store/modules/developers';
 import advantage from './modules/advantage';
 import discover from './modules/discover';
 import works from './modules/works';
+import footer from './modules/footer';
 
 export default createStore({
   modules: {
-    apiModule, developers, advantage, discover, works
+    apiModule, developers, advantage, discover, works, footer
   },
 });
