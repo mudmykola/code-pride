@@ -19,7 +19,7 @@ const redirectToPage = () => {
 <template>
     <div class="custome-button">
         <button
-            class="bg-c101 rounded-[2.75rem] text-[1.063rem] font-semibold uppercase text-default py-[1.125rem] px-[2rem] hover:bg-h101 transition hover:transition-all"
+            class="bg-c101 rounded-[2.75rem] text-[1.063rem] font-semibold uppercase text-default py-[1.125rem] px-[2rem] hover:bg-h100 transition hover:transition-all"
             :class="buttonClass" @click="redirectToPage">
             {{ buttonText }}
         </button>
