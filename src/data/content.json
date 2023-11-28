@@ -14,7 +14,10 @@
     },
     "footerLogo": {
         "city": "City, Country, Example street",
-        "copy": "Privacy Policy"
+        "copy": "Privacy Policy",
+        "subtitle": "CODEPRIDE",
+        "title": "Build your dream team today",
+        "description": "Tired of job postings, endless interviews and hiring headaches? Discover talented developers, tailored to you and accelerate your business now."
     },
     "hiring": {
         "subtitle": "Tech Hiring Unleashed: Remote Revolution",
