@@ -5,6 +5,7 @@ import HeaderCartComponent from '@/components/header/HeaderCartComponent';
 import AdvantagesComponent from '@/components/advantages/AdvantagesComponent';
 import WorksComponent from '@/components/works/WorksComponent.vue';
 import HiringComponent from '@/components/hiring/HiringComponent';
+import FaqComponent from '@/components/faq/FaqComponent';
 </script>
 
 
@@ -16,6 +17,7 @@ import HiringComponent from '@/components/hiring/HiringComponent';
       <advantages-component />
       <works-component />
       <hiring-component />
+      <faq-component />
     </layout-component>
   </div>
 </template>
