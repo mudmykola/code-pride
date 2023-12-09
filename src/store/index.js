@@ -5,9 +5,10 @@ import advantage from './modules/advantage';
 import discover from './modules/discover';
 import works from './modules/works';
 import footer from './modules/footer';
+import faq from './modules/faq';
 
 export default createStore({
   modules: {
-    apiModule, developers, advantage, discover, works, footer
+    apiModule, developers, advantage, discover, works, footer, faq
   },
 });
