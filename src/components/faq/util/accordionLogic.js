@@ -6,16 +6,9 @@ export function setupAccordion() {
     const GET_FAQ = computed(() => store.getters.GET_FAQ);
 
     const toggleAccordion = (index) => {
-        GET_FAQ.value.forEach((item, i) => {
-            if (i === index) {
-                item.isOpen = !item.isOpen;
-            } else {
-                item.isOpen = false;
-            }
-        });
+        GET_FAQ.value[index].isOpen = !GET_FAQ.value[index].isOpen;
     };
 
-    return {
-        toggleAccordion,
-    };
+
+    return { toggleAccordion };
 }
