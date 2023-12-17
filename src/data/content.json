@@ -25,5 +25,9 @@
     },
     "faq": {
         "title": "Frequently Asked Questions"
+    },
+    "future": {
+        "title": "The future of  remote tech hiring",
+        "desc": "Because we consistently deliver the world's best developers, fast."
     }
 }
